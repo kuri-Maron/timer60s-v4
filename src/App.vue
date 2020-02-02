@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <b-button variant="success">Button</b-button>
+      <!-- <b-button variant="success">Button</b-button> -->
       <div id="nav">
         <router-link to="/">Home</router-link>|
         <router-link to="/about">About</router-link>
@@ -62,7 +62,4 @@ html {
   color: #42b983;
 }
 
-.page-logo {
-  height: 10px;
-}
 </style>
