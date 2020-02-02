@@ -6,18 +6,27 @@
         <router-link to="/">Home</router-link>|
         <router-link to="/about">About</router-link>
       </div>
+      <main class="mb-5">
       <router-view />
+      </main>
+      <!-- <div class="row">
+      </div> -->
+      <footerComponent/>
     </div>
   </div>
 </template>
 
 <script>
+import footerComponent from '@/components/footerComponent.vue'
 // アイコン使いたいならインポートが必要？
 // import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 // Vue.use(BootstrapVueIcons)
 
 export default {
-  name: "App"
+  name: "App",
+  components:{
+    footerComponent
+  }
 }
 </script>
 
@@ -33,7 +42,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #eeeeee;
 
 /* カスタム設定 */
   /* background-color: rgb(56, 51, 51); */
@@ -51,5 +60,9 @@ html {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.page-logo {
+  height: 10px;
 }
 </style>
