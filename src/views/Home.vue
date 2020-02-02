@@ -2,7 +2,11 @@
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/img01.png"> -->
     <!-- TODO: カウントダウンタイマーの位置をbootで決める。 -->
-    <countdownTimer/>
+    <div class="row timerRow">
+    <countdownTimer class="col-8 offset-2">
+    </countdownTimer>
+    <div class="col-2"></div>
+    </div>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -20,3 +24,11 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+.timerRow {
+max-width: 100vw;
+height: 35vh;
+}
+</style>
