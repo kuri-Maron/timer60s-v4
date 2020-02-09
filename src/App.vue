@@ -41,7 +41,7 @@ html {
 
 #app {
   /* デフォルト設定 */
-  font-family: 'Julius Sans One','Open Sans Condensed',"Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans Condensed',"Avenir", Helvetica, Arial,'Julius Sans One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -58,7 +58,8 @@ html {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: #a9cae0;
 }
 
 #nav a.router-link-exact-active {
