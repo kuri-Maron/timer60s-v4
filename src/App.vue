@@ -4,7 +4,9 @@
       <!-- <b-button variant="success">Button</b-button> -->
       <div id="nav">
         <router-link to="/">Home</router-link>|
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">About</router-link>|
+        <router-link to="/writeMode">writeMode</router-link>
+
       </div>
       <!-- <main class="mb-5"> -->
       <main>
