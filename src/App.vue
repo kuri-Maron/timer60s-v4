@@ -6,7 +6,8 @@
         <router-link to="/">Home</router-link>|
         <router-link to="/about">About</router-link>
       </div>
-      <main class="mb-5">
+      <!-- <main class="mb-5"> -->
+      <main>
       <router-view />
       </main>
       <!-- <div class="row">
@@ -38,7 +39,7 @@ html {
 
 #app {
   /* デフォルト設定 */
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Julius Sans One','Open Sans Condensed',"Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

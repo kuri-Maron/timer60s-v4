@@ -14,6 +14,8 @@ export default {
 <style scoped>
 footer {
     /* background-color: #fff; */
+    width: 25vw;
+    margin: 0 0 0 auto;
     text-align: end;
 }
 
